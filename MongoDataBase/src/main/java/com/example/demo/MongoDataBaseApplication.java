@@ -14,7 +14,6 @@ public class MongoDataBaseApplication implements CommandLineRunner
 {
 	@Autowired
 CustomerRepository cus;
-	 
 	public static void main(String[] args) {
 		SpringApplication.run(MongoDataBaseApplication.class, args);
 	}
@@ -35,5 +34,4 @@ CustomerRepository cus;
 			System.out.println(stu.toString());
 		}
 	}
-
 }
